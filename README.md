@@ -1,19 +1,17 @@
-It is a serverless module that lets you store webhook subscriptions and notify them of changes in your system.
-
-**ETA - 2 weeks**
+Store webhook subscriptions and notify them of changes in your system.
 
 ### Features:
 
 - create a webhook
 - post message to a webhook url
 - retry posting failed messages with exponential back-off algorithm
-- block webhook if url is no longer valid or resources has been moved
+- block webhook if url is no longer valid or resources have been moved
 - delete a webhook
 
 ### Requirements:
 
 - AWS account
-- Serverless framework (specify the version)
+- Serverless framework
 
 ### Running instructions:
 
@@ -28,7 +26,7 @@ It is a serverless module that lets you store webhook subscriptions and notify t
 - delete a webhook
 - pass on message to webhook module for delivery
 
-### AWS Resources utilized:
+### AWS Resources used:
 
 - APIG - API urls facing the outside world
 - Lambda - for computation
